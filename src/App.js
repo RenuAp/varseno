@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+import{BrowserRouter, Routes, Route} from "react-router-dom"
 import './App.css';
+import Sidebar from "./Components/Sidebar";
+import Assistant from "./Pages/Assistant";
+import Dashboard from "./Pages/Dashboard";
+import Flights from "./Pages/Flights";
+import Satitics from "./Pages/Satitics";
+import Tours from "./Pages/Tours";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+   
+      <BrowserRouter>
+      <Sidebar>
+      <Routes>
+          <Route path="/" element={<Dashboard/>}/>
+          <Route path="/flights" element={<Flights/>}/>
+          <Route path="/satitics" element={<Satitics/>}/>
+          <Route path="/tours" element={<Tours/>}/>
+          <Route path="/assistant" element={<Assistant/>}/>
+          <Route path="*" element={<h2>Error Page: 404 page not found</h2>}/>
+      </Routes>
+      </Sidebar> 
+      </BrowserRouter>
+    </>
   );
 }
 
