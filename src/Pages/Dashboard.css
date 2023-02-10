@@ -1,0 +1,30 @@
+main {
+    padding: 17px 10px;
+}
+.card{
+    border:1px solid #058181;
+    color:#058181;
+}
+button.btn.btn-primary {
+        background-color: #058181;
+        border: #058181;
+        color: white;   
+}
+.row {
+    margin-bottom: 20px;
+}
+.card-header{
+    border-bottom: none;
+}
+.card-second{
+    background-color:orange;
+    color:white
+}
+.card-third{
+    background-color:#198754;
+    color:white
+}
+.card-fourth{
+background-color:#ff1470;
+color:white
+}

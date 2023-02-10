@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.container-fluid {
+    padding: 0px !important;
+    display: flex;
+}
+.main{
+    width: 100%;
+    padding: 20px;
+}
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.bars {
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.sidebar{
+    height: 136vh;
+    background-color: #058181;;
+    color: white;
+    width: 200px;
+}
+.bars{
+ margin-bottom: -10px;
+
+}
+.link{
+    display: flex;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;;
+}
+.link:hover{
+    background-color:white;
+    color:#058181;
+}
+.icon {
+    font-size: 20px;
+    padding: 1px 3px;
+}
+.main{
+        background: rgb(0 0 0 / 15%);
+}

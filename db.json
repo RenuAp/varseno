@@ -1,0 +1,19 @@
+{
+  "students": [
+      {
+          "id": 1,
+          "title": "json-server",
+          "author": "typicode"
+      },
+      {
+          "id": 2,
+          "title": "Secret Series",
+          "author": "rhonda byrne"
+      },
+      {
+          "id": 3,
+          "title": "Mrutyunjay",
+          "author": "shivaji savant"
+      }
+  ]
+}
